@@ -1,7 +1,5 @@
 ## Saldão Total
 
-## Nome
-
 Saldão Total.
 
 ## Descrição
