@@ -1,7 +1,5 @@
 ## Saldão Total
 
-Saldão Total.
-
 ## Descrição
 
 O Saldão Total é um site criado para uma loja de móveis e eletrodomésticos que trabalha com produtos que possuem algum tipo de avaria. O grande objetivo da página é apresentar a loja, os produtos e as principais informações de um jeito bem simples, organizado e fácil de acessar. Assim, os clientes conseguem conhecer melhor o que está disponível, conferir os detalhes de cada item e encontrar rapidinho as informações de contato para falar com a equipe ou programar uma visita à loja.
