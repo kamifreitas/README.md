@@ -24,6 +24,20 @@ Para construir o Saldão Total, foram usadas as linguagens HTML5, CSS3 e JavaScr
 
 O site traz como principais recursos a apresentação da loja, a vitrine com os móveis e eletrodomésticos disponíveis e os detalhes de cada produto. Ele também facilita a comunicação ao reunir as informações de contato entre os clientes e a loja. A ideia é que a pessoa consiga conhecer os produtos de forma rápida e organizada antes de ir até lá. Além disso, o site conta com uma interface simples e intuitiva, garantindo uma navegação tranquila tanto no computador quanto no celular.
 
+## Estrutura de arquivo e pastas
+
+C:.
+│   contato.html
+│   index.html
+│   produtos.html
+│   
+├───css
+│       style.css
+│       
+├───img
+└───js
+        script.js
+
 ## Autores
 
 O projeto Saldão Total foi desenvolvido por Kamilly Freitas, Gabriel Luiz Petry, Rafael Gomes, Gabrielly Baungartner e Gustavo Derem.
