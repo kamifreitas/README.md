@@ -1,26 +1,29 @@
-# Saldão Total
+
 
 ## Nome
-Saldão Total
+
+Saldão Total.
 
 ## Descrição
-O Saldão Total é um site desenvolvido para uma loja de móveis e eletrodomésticos que comercializa produtos com avarias. O objetivo do site é apresentar a loja, seus produtos e suas informações de forma organizada, facilitando o acesso dos clientes e incentivando a visita presencial.
+
+O Saldão Total é um site criado para uma loja de móveis e eletrodomésticos que trabalha com produtos que possuem algum tipo de avaria. O grande objetivo da página é apresentar a loja, os produtos e as principais informações de um jeito bem simples, organizado e fácil de acessar. Assim, os clientes conseguem conhecer melhor o que está disponível, conferir os detalhes de cada item e encontrar rapidinho as informações de contato para falar com a equipe ou programar uma visita à loja.
 
 ## Problema a ser resolvido
-A loja possui dificuldade em divulgar seus produtos e informações de forma organizada e acessível aos clientes. O site busca solucionar esse problema centralizando as informações da loja e dos produtos em um único ambiente, facilitando o conhecimento dos produtos disponíveis e o contato com a loja.
+
+Antes, a loja sentia bastante dificuldade para divulgar seus produtos e informações de forma organizada para os clientes. Nem sempre era fácil para as pessoas saberem o que tinha à disposição ou acharem dados sobre o estabelecimento. O site nasceu justamente para solucionar esse desafio, reunindo tudo em um só lugar. Dessa forma, o cliente consegue explorar os produtos, ver os detalhes e saber como entrar em contato com a loja antes mesmo de sair de casa para uma visita presencial.
 
 ## Requisitos operacionais
-O site pode ser acessado por meio de um computador, notebook, tablet ou celular, sendo necessário apenas um navegador de internet atualizado e conexão com a internet. Não é necessária a instalação de programas adicionais para utilizar o sistema.
+
+O site pode ser acessado de qualquer computador, notebook, tablet ou celular. Para usá-lo, o cliente só precisa de um navegador de internet atualizado e conexão com a rede. Não é necessário instalar nenhum programa ou aplicativo extra, o que torna a experiência bem mais simples e prática.
 
 ## Ferramentas utilizadas
-Para o desenvolvimento do Saldão Total foram utilizadas as linguagens HTML5, responsável pela estrutura das páginas, CSS3, utilizada na estilização e organização visual do site, e JavaScript, responsável pelas funcionalidades e interações. O desenvolvimento foi realizado no Visual Studio Code, com utilização do Git/GitHub para controle e armazenamento do projeto.
 
+Para construir o Saldão Total, foram usadas as linguagens HTML5, CSS3 e JavaScript. O HTML5 organizou a estrutura das páginas, enquanto o CSS3 cuidou da parte visual — como cores, tamanhos, posições e organização dos elementos. Já o JavaScript deu vida às funcionalidades e interações do site. No desenvolvimento, a equipe usou o Visual Studio Code, além do Git e do GitHub para o controle de versões e armazenamento do código.
 
 ## Funcionalidades
-O site possui como principais funcionalidades a apresentação da loja, exibição dos móveis e eletrodomésticos disponíveis, informações sobre os produtos e seus respectivos detalhes, além de informações de contato. Também permite que o cliente conheça melhor os produtos antes de realizar uma visita presencial à loja, contando com uma interface simples, intuitiva e organizada.
 
-## Estrutura de arquivos/pastas
-[resultado do comando tree]
+O site traz como principais recursos a apresentação da loja, a vitrine com os móveis e eletrodomésticos disponíveis e os detalhes de cada produto. Ele também facilita a comunicação ao reunir as informações de contato entre os clientes e a loja. A ideia é que a pessoa consiga conhecer os produtos de forma rápida e organizada antes de ir até lá. Além disso, o site conta com uma interface simples e intuitiva, garantindo uma navegação tranquila tanto no computador quanto no celular.
 
 ## Autores
-Kamilly Freitas, Gabriel Luiz Petry, Rafael Gomes, Gabrielly Baungartner e Gustavo Derem.
+
+O projeto Saldão Total foi desenvolvido por Kamilly Freitas, Gabriel Luiz Petry, Rafael Gomes, Gabrielly Baungartner e Gustavo Derem.
