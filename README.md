@@ -1,39 +1,72 @@
-## Saldão Total
+# Saldão Total
 
-## Descrição
+## 1. Introdução / Apresentação do problema
 
-O Saldão Total é um site criado para uma loja de móveis e eletrodomésticos que trabalha com produtos que possuem algum tipo de avaria. O grande objetivo da página é apresentar a loja, os produtos e as principais informações de um jeito bem simples, organizado e fácil de acessar. Assim, os clientes conseguem conhecer melhor o que está disponível, conferir os detalhes de cada item e encontrar rapidinho as informações de contato para falar com a equipe ou programar uma visita à loja.
+### 1.1 Descrição
 
-## Problema a ser resolvido
+O Saldão Total é um site desenvolvido para uma loja de móveis e eletrodomésticos que comercializa produtos com algum tipo de avaria (riscos, amassados, embalagem violada, entre outros). O objetivo do projeto é apresentar a loja, o catálogo de produtos e as principais informações de contato de um jeito simples, organizado e fácil de acessar, permitindo que o cliente conheça o que está disponível, veja o estado de cada avaria e o preço, e agende uma visita à loja diretamente pelo WhatsApp.
 
-Antes, a loja sentia bastante dificuldade para divulgar seus produtos e informações de forma organizada para os clientes. Nem sempre era fácil para as pessoas saberem o que tinha à disposição ou acharem dados sobre o estabelecimento. O site nasceu justamente para solucionar esse desafio, reunindo tudo em um só lugar. Dessa forma, o cliente consegue explorar os produtos, ver os detalhes e saber como entrar em contato com a loja antes mesmo de sair de casa para uma visita presencial.
+A loja não realiza entregas: o modelo de negócio é baseado em consultas e visitas agendadas, já que o cliente precisa conferir o produto e a avaria pessoalmente antes da compra.
 
-## Requisitos operacionais
+### 1.2 Problema a ser resolvido
 
-O site pode ser acessado de qualquer computador, notebook, tablet ou celular. Para usá-lo, o cliente só precisa de um navegador de internet atualizado e conexão com a rede. Não é necessário instalar nenhum programa ou aplicativo extra, o que torna a experiência bem mais simples e prática.
+Antes do site, a loja tinha dificuldade em divulgar seus produtos e informações de forma organizada para os clientes. Não era fácil para as pessoas saberem o que havia disponível no momento, qual o estado de cada item ou como agendar uma visita. O site resolve esse problema ao reunir, em um só lugar:
 
-## Ferramentas utilizadas
+- a vitrine completa de produtos, com busca e filtro por categoria;
+- a condição detalhada da avaria e o preço de cada item, numa página própria;
+- um canal direto de agendamento com a loja pelo WhatsApp, sem depender de ligação.
 
-Para construir o Saldão Total, foram usadas as linguagens HTML5, CSS3 e JavaScript. O HTML5 organizou a estrutura das páginas, enquanto o CSS3 cuidou da parte visual — como cores, tamanhos, posições e organização dos elementos. Já o JavaScript deu vida às funcionalidades e interações do site. No desenvolvimento, a equipe usou o Visual Studio Code, além do Git e do GitHub para o controle de versões e armazenamento do código.
+Assim, o cliente consegue explorar o catálogo, conferir os detalhes de cada produto e marcar uma visita antes mesmo de sair de casa.
 
-## Funcionalidades
+## 2. Metodologia / Perspectiva de solução
 
-O site traz como principais recursos a apresentação da loja, a vitrine com os móveis e eletrodomésticos disponíveis e os detalhes de cada produto. Ele também facilita a comunicação ao reunir as informações de contato entre os clientes e a loja. A ideia é que a pessoa consiga conhecer os produtos de forma rápida e organizada antes de ir até lá. Além disso, o site conta com uma interface simples e intuitiva, garantindo uma navegação tranquila tanto no computador quanto no celular.
+### 2.1 Requisitos operacionais
 
-## Estrutura de arquivo e pastas
+- Pode ser acessado de qualquer computador, notebook, tablet ou celular;
+- Funciona em qualquer navegador de internet atualizado, com conexão à rede;
+- Não exige instalação de nenhum programa ou aplicativo adicional;
+- O agendamento e o contato com a loja acontecem pelo WhatsApp — não há entrega, apenas visita presencial agendada.
 
-C:.
-│   contato.html
-│   index.html
-│   produtos.html
-│   
+### 2.2 Ferramentas utilizadas
+
+- HTML5 - estrutura das páginas;
+- CSS3 - estilização visual (cores, layout, responsividade);
+- JavaScript - interações do site, como busca, filtros e geração dinâmica dos produtos;
+- Visual Studio Code - ambiente de desenvolvimento;
+- Git / GitHub - controle de versão e armazenamento do código;
+- GitHub Pages - hospedagem do site.
+
+### 2.3 Funcionalidades
+
+- Apresentação da loja na página inicial, com produto em destaque sorteado a cada visita;
+- Vitrine completa de produtos, com filtro por categoria (móveis / eletrodomésticos);
+- Busca por produto no cabeçalho, disponível em todas as páginas, com preview dos resultados enquanto o cliente digita e redirecionamento para a vitrine filtrada;
+- Página individual para cada produto, mostrando o estado da avaria, fotos da avaria (quando cadastradas) e o preço;
+- Botão de WhatsApp em cada produto, já com uma mensagem pronta perguntando sobre aquele item específico;
+- Formulário de agendamento de visita (nome, telefone, data e horário) que monta a mensagem e abre o WhatsApp automaticamente;
+- Botão flutuante de WhatsApp presente em todas as páginas;
+- Interface responsiva, adaptada para computador e celular.
+
+### 2.4 Estrutura de arquivos e pastas
+
+```
+saldao-total/
+│   index.html        - página inicial
+│   produtos.html     - vitrine de produtos
+│   produto.html      - página de detalhe de um produto específico
+│   contato.html      - contato e agendamento
+│   README.md
+│
 ├───css
 │       style.css
-│       
+│
 ├───img
+│
 └───js
-        script.js
+        produtos-data.js  - dados dos produtos (fonte única usada pelas páginas)
+        script.js         - funcionalidades e interações do site
+```
 
 ## Autores
 
-O projeto Saldão Total foi desenvolvido por Kamilly Freitas, Gabriel Luiz Petry, Rafael Gomes, Gabrielly Baungartner e Gustavo Derem.
+Gabriel Luiz Petry, Gabrielly Baungartner, Kamilly Freitas e Rafael Gomes.
