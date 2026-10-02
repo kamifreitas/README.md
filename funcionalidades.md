@@ -10,7 +10,7 @@ Um clique em "Móveis" ou "Eletrodomésticos" (Mais a adicionar futuramente) e s
 
 ## Vitrine dinâmica
 
-Os cards da vitrine não ficam escritos à mão no HTML / a gente cria com uma lista de produtos no JavaScript. Com um produto novo automaticamente já vira produto novo na tela.
+Os cards da vitrine não ficam escritos à mão no HTML, a gente cria com uma lista de produtos no JavaScript. Com um produto novo automaticamente já vira produto novo na tela.
 
 ## Página de detalhe do produto
 
